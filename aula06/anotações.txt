@@ -1,0 +1,133 @@
+Data Types
+
+-Number
+    >Infinity
+    >NaN
+
+-string
+
+-boolean
+
+-null
+
+-undefined
+
+-object
+    >Array
+
+-function
+
+
+Maneiras de converter STRING EM NÚMEROS
+
+Number.parseInt(n)    para numeros inteiros
+Number.parseFloat(n)   para fracionados
+Number(n)  é reconhecido automaticamente
+
+MANEIRAS DE CONVERTER NUMEROS EM STRINGS
+
+String(n)
+n.toString()
+
+FORMATANDO STRINGS
+
+var s = 'JavaScript'
+
+s.length    // quantos caracteres a string tem
+s.toUpperCase()    // Tudo para "MAIÚSCULAS"
+S.toLowerCase()   // tudo para "minúsculas"
+
+
+FORMATANDO NÚMEROS
+
+  var n1 = 1543.5
+
+para adicionar casas decimais, 
+n1.toFixed(numero de casas decimais q deseja)
+
+para fazer substituição de sinais,  
+n1.toFixed().replace('','')
+
+para fazer uma conversão monetária usa:
+n1.toLocaleString('pt-BR' , {style: 'currency' , currency: 'BRL'})
+
+
+
+
+OPERADORES DO JAVASCRIPT
+
+     ARITMÉTICOS
+     ATRIBUIÇÃO
+     RELACIONAIS
+     LÓGICOS
+     TERNÁRIO
+
+
+     ARITIMÉTICOS
+
+    5 + 2 = 7
+    5 - 2 = 3
+    5 * 2 = 10
+    5 / 2 = 2.5  ( DIVISÃO EM NUMEROS REAIS)
+    5 % 2 = 1    ( DIVISÃO EM NUMEROS INTEIRO RESTO)
+    5 ** 2 = 25  (POTÊNCIA)
+
+
+PRECENDENCIA
+
+        () ** / ...    ARITIMÉTICOS
+        > < >=  ...    RELACIONAIS
+        ! (não)    \
+        && (e)     >    PRECEDENCIA
+        || (ou)   /
+
+
+TERNÁRIO
+
+teste  ?   true   :  false
+
+
+		SIGNIFICADOS
+ 	
+	" = "   RECEBE
+	
+	" == "  IGUAL
+
+	" === " IDENTICO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
